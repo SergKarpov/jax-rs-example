@@ -1,0 +1,1 @@
+don’t use openjdk, they lack HttpServer
