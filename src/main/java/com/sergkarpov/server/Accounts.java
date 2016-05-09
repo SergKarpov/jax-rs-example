@@ -28,7 +28,7 @@ public class Accounts {
 
     private Map<String, BigDecimal> balance;
 
-    public BigDecimal getBalance(String account){
+    public synchronized BigDecimal getBalance(String account){
         return balance.get(account);
     }
 
